@@ -2,6 +2,7 @@ package SectionB;
 
 import java.util.Scanner;
 
+//main class, runs the code
 public class MainGame {
     
     public static void main(String[] args) {

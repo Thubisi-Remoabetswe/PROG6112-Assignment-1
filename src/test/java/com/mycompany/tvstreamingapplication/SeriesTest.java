@@ -3,6 +3,7 @@ package com.mycompany.tvstreamingapplication;
 import org.junit.jupiter.api.BeforeEach;
 import static org.junit.jupiter.api.Assertions.*;
 
+//unit tests
 public class SeriesTest {
     
     @BeforeEach

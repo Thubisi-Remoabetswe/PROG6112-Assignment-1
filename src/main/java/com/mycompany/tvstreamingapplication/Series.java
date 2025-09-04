@@ -13,6 +13,7 @@ public class Series {
          
     }
     
+    // show main menu for series application
     public static void showMenu(){
         
         Scanner input = new Scanner(System.in);
@@ -28,7 +29,8 @@ public class Series {
             return;
         }  
     }
-    
+   
+    //main menu with switch for different user input
     public static void mainMenu(){
         
         String mainMenuOption;
@@ -76,6 +78,7 @@ public class Series {
         }       
     }
     
+    //capture series method
     public static void captureSeries(){
         
         String id;
@@ -115,6 +118,7 @@ public class Series {
         showMenu(); 
     }
 
+    //series search method
     public static void searchSeries(){
         
         String search;
@@ -145,6 +149,7 @@ public class Series {
         showMenu();
     }
     
+    //method to update the inforation of the series already entered
     public static void updateSeries(){
         
         String updateId;
@@ -182,6 +187,7 @@ public class Series {
         
     }
     
+    //delete the series
     public static void deleteSeries(){
         
         String deleteId;
@@ -221,6 +227,7 @@ public class Series {
             showMenu();   
     }
     
+    //full report of the series saved on array
     public static void seriesReport(){
         
         if(seriesList.isEmpty()){

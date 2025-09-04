@@ -1,6 +1,6 @@
 package SectionB;
 
-    
+//super/parent class    
 class Game{
         private int x;
         private int y;

@@ -22,6 +22,7 @@ public class SeriesModel {
                 ", Episodes: " + SeriesNumberOfEpisodes;
     }
     
+    //getters
     public String getId(){
         return SeriesId;
     }
@@ -38,6 +39,7 @@ public class SeriesModel {
         return SeriesNumberOfEpisodes;
     }
     
+    //setters
     public void setId(String SeriesId){
         this.SeriesId = SeriesId;
     }

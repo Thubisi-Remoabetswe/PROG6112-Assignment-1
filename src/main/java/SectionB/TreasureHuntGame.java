@@ -14,6 +14,7 @@ public class TreasureHuntGame {
         this.gridSize = gridSize;
     }
     
+    //user input and grid system
     public void play(){
         Scanner input = new Scanner(System.in);
         int row;
@@ -43,6 +44,7 @@ public class TreasureHuntGame {
         showReport(found);
     }
 
+    //full game report
     public void showReport(boolean found) {
         System.out.println("\n--- Game Report ---");
         System.out.println("Player: " + player.getName());

@@ -2,6 +2,7 @@ package SectionB;
 
 import java.util.Random;
 
+//child class
 public class Treasure extends Game {
     
     public Treasure(int gridSize){

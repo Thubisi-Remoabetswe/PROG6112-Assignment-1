@@ -1,5 +1,6 @@
 package SectionB;
 
+//child class
 public class Player extends Game{
     
     private String name;
@@ -23,6 +24,7 @@ public class Player extends Game{
         }
     }
     
+    //getters
     public String getName(){
         return name;
     }
